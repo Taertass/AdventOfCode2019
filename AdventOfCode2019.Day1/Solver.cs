@@ -43,7 +43,7 @@ namespace AdventOfCode2019.Day1
             int totalFuelLoad = 0;
             foreach (var mass in masses)
             {
-                totalFuelLoad += CalulateFuelLoad(mass);
+                totalFuelLoad += CalulateFuelLoadWithMass(mass);
             }
             return totalFuelLoad;
         }
